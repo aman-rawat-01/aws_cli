@@ -1,0 +1,5 @@
+CREATE AN EC2 INSTANCE
+aws ec2 run-instances --image-id ami-00785xxxx --count 1 --instance-type t2.micro --key-name "key-pair-name" --security-group-ids sg-0479xxx --subnet-id subnet-0816xxxx
+
+STOP AN EC2 INSTANCE
+aws ec2 stop-instances --instance-ids i-0fb8xxxxxx
